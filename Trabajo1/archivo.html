@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html style="background:beige">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formularios</title>
+    </head>
+    <body>
+        <h1 style="text-align:center">Uso de Formularios</h1>
+        <form action="">
+            <fieldset>
+                <legend>Datos Personales</legend>
+                    <label for="name">Nombre</label>
+                    <input id="name" type="text " placeholder="Ingrese su nombre"><br />
+                    <label for="surname">Apellido</label>
+                    <input id="surname" type="text" placeholder="Ingrese su apellido"><br />
+                    <label for="email">Email</label>
+                    <input id="email" type="email" placeholder="Ingrese su email"><br />
+                    <label for="password">Contrasenia</label>
+                    <input id="password" type="password" placeholder="Ingrese su contrasenia "><br />
+            </fieldset>
+        
+            <fieldset>
+                <legend>Datos Personales</legend>
+                    <label for="asientovip">Asiento Premium</label>
+                    <input id="asientovip" type="radio" value="asiento-premium" name="asiento"><br />
+                    <label for="asientoecon+">Asiento Economy+</label>
+                    <input id="asientoecon+" type="radio" value="asiento-economy-p1" name="asiento"><br />
+                    <label for="asientoecon">Asiento Economy</label>
+                    <input id="asientoecon" type="radio" value="asiento-economy" name="asiento"><br /><br />
+
+                    <label for="vinopre">Vino Premium</label>
+                    <input id="vinopre" type="checkbox" value="vinopre" name="adicionales"><br />
+                    <label for="vino">Vino</label>
+                    <input id="vino" type="checkbox" value="vino-normal" name="adicionales"><br />
+                    <label for="manta">Manta</label>
+                    <input id="manta" type  ="checkbox" value="vino-manta" name="adicionales"><br />
+                    <label for="hoteles">Hoteles Disponibles</label>
+                    <select id="hoteles" name="hoteles">
+                        <option disabled selected>Seleccione una opcion</option>
+                        <option value="hotel1">Abasto Hotel</option>
+                        <option value="hotel2">Ritz</option>
+                        <option value="hotel3">Islas Cayman Hotel</option>
+                    </select>
+                    <br /><br />
+                    <label for="colorfav">Color Favorito</label>
+                    <input id="colorfav" type="color">
+                    <br /><br />
+                    <label for="range">Temperatura Asiento</label>
+                    <span>15</span>
+                        <input id="range" type="range" min="15" max="50">
+                    <span></span>
+                   
+            </fieldset>
+            <input type="submit">
+            <input type="reset">
+        </form>
+        <iframe src="./index.html" height="500" width="725" title="Pagina Desarrollo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscree><h2>Segunda Pagina</h2></iframe>
+    </body>
+</html>
